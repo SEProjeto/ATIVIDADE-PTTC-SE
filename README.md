@@ -11,7 +11,7 @@ O óculos anti-sono foi desenvolvido (SHUBHAM SURESH,2021) com a função de imp
 
 >“Os distúrbios do sono provocam consequências adversas na vida das pessoas por diminuir seu funcionamento diário, aumentar a propensão a distúrbios psiquiátricos, déficits cognitivos, surgimento e agravamento de problemas de saúde, riscos de acidentes de tráfego, absenteísmo no trabalho, e por comprometer a qualidade de vida”.(MULLER, et al,2007).
 
-Concluindo, as consequência de acidentes na estrada leva a perca de muitas vidas. Muitos motoristas não tem opção a não ser dirigir de noite, onde as chances de acabar dormindo e causar um acidente são muitas. Um produto como o óculos anti-sono poderia auxiliar essas pessoas a não se descuidarem na estrada.
+Concluindo, a consequência de acidentes na estrada leva a perca de muitas vidas. Muitos motoristas não tem opção a não ser dirigir de noite, onde as chances de acabar dormindo e causar um acidente são muitas. Um produto como o óculos anti-sono poderia auxiliar essas pessoas a não se descuidarem na estrada.
 
 
 

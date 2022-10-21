@@ -1,4 +1,4 @@
-# ATIVIDADE-PTTC-SE - Óculos Anti-sono
+# Óculos Anti-sono - Uma solução para acidentes causados nas estradas
 
 
 É de conhecimento geral, por meios de meios de comunicação, que acidentes de trânsito causados por motoristas que pegam no sono por conta do cansaço acontecem regularmente. Motoristas acabam dormindo e consequentemente sofrendo um acidente. Segundo OLIVEIRA, et al, 2016, a “taxa de mortalidade por acidentes de trânsito (AT) é alta no Brasil. Os caminhões são a segunda categoria de veículos automotores mais envolvida em AT, quase 11% dos entrevistados sofreram algum AT no período”.

@@ -8,6 +8,6 @@ Por causa dos acidentes de trânsito, causados pela falta de atenção e cansaç
 ---
  
  - [Introducao](./introducao/introducao.md)
- - [Lista de Materiais](./lista_de_materiais/Materiais.md)
+ - [Lista de Materiais](./Materiais.md)
  
 ---

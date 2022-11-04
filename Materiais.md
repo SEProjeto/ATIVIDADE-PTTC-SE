@@ -6,5 +6,5 @@
 - Resistores
 - Transistor
 - Motor de vibração
-- Armação
+- Armação de óculos
 - bateria 5v

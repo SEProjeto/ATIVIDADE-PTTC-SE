@@ -1,23 +1,22 @@
 # Desenvolvimento
 
-## **Semana 1 - 21/02 a 28/02**
+## **Semana 1 - 21/10 a 28/10**
 
 - Definição sobre quem seriam os membros da Equipe;
 - Discussão e definição do tema do projeto;
 - Criação de um repositório no Github com a introdução do projeto e referências.
 ________
 
-## **Semana 2- 04/02 a 11/02**
+## **Semana 2- 04/11 a 11/11**
 
 - Alteração do arquivo README.md. Agora ele conta um resumo do projeto e links para os outros documentos do projeto;
 - Criação do arquivo introducao.md. A introdução que estava no arquivo README.md foi movida para este arquivo;
 - Criação do arquivo materiais.md. Esse arquivo contém todos os componentes necessários para a construção do projeto físico;
 - Elaboração do projeto virtual adaptado no Tinkercad.
 
-### Montagem virtual no Tinkercad
+## Montagem virtual no Tinkercad
 
-## Etapa 1 - Sensor Infravermelho com controle remoto, LED e LCD
-
+### Etapa 1 - Sensor Infravermelho com controle remoto, LED e LCD
 
 Código:
 ```

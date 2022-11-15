@@ -148,6 +148,10 @@ Imagens: <br>
 <img src="https://user-images.githubusercontent.com/116377673/202010671-3a352dc3-c847-4bd6-979f-3f9ac9695b88.png" width="430" height="270" /> <br>
 <img src="https://user-images.githubusercontent.com/116377673/202011563-1f6b1fa8-eb61-4e4a-b229-30ebea110c20.png" width="430" height="270" /> <br>
 <img src="https://user-images.githubusercontent.com/116377673/202011385-f8803244-8d66-4155-a20f-70df6eeedcfb.png" width="430" height="270" /> <br>
+________
 
+## **Semana 3 - 15/11 a 18/11**
 
-
+- Criação do arquivo Desenvolvimento.md;
+- Montagem do projeto físico;
+- Apresentação final do projeto.

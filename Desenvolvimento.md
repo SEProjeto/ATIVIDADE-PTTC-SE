@@ -16,7 +16,7 @@ ________
 
 ## Montagem virtual no Tinkercad
 
-### Etapa 1 - Sensor Infravermelho com controle remoto, LED e LCD
+### Etapa 1 - Sensor Infravermelho com Controle Remoto, LED e LCD
 
 Código:
 ```
@@ -77,12 +77,12 @@ Imagens: <br>
 <img src="https://user-images.githubusercontent.com/116377673/202004494-c7919249-4326-4f77-8a41-7bfa1dfaf85a.png" width="430" height="270" /> <br>
 
 O nosso protótipo Óculos Anti-Sono tem o objetivo de impedir que motoristas inconscientes causem acidentes nas estradas. O circuito acima simula a versão mais básico do nosso projeto. <br>
-Para o projeto virtual, nós tentamos simular os estados de olho aberto e olho fechado com o sensor infravermelho e o controle remoto. O botão 1 do controle simula o estado de olho aberto e o botão número 2 simula o estado de olho fechado. Quando o botão 2 é pressionado, o LED irá acender, indicando que o motorista esta com o olho aberto. <br>
+Para o projeto virtual, nós tentamos simular os estados de olho aberto e olho fechado com o Sensor Infravermelho e o Controle Remoto. O botão 1 do controle simula o estado de olho aberto e o botão número 2 simula o estado de olho fechado. Quando o botão 2 é pressionado, o LED irá acender, indicando que o motorista esta com o olho aberto. <br>
 A tela LCD é usada para ilustrar os estados do circuito. Quando um botão é pressionado, ele muda seu letreiro de acordo. É possível ver seu funcionamento nas figuras acima. 
 
 ________
 
-## Etapa 2 - Sensor Infravermelho com controle remoto, LED, Buzzer, Moto de Vibração e Sensor de Inclinação.
+## Etapa 2 - Projeto Final - Sensor Infravermelho com Controle Remoto, LED, Buzzer, Motor de Vibração e Sensor de Inclinação.
 
 
 Código:
@@ -151,10 +151,20 @@ Imagens: <br>
 <img src="https://user-images.githubusercontent.com/116377673/202010671-3a352dc3-c847-4bd6-979f-3f9ac9695b88.png" width="430" height="270" /> <br>
 <img src="https://user-images.githubusercontent.com/116377673/202011563-1f6b1fa8-eb61-4e4a-b229-30ebea110c20.png" width="430" height="270" /> <br>
 <img src="https://user-images.githubusercontent.com/116377673/202011385-f8803244-8d66-4155-a20f-70df6eeedcfb.png" width="430" height="270" /> <br>
+
+O nosso projeto final contará com mais três compononentes, além dos já vistos anteriormente na Etapa 1. Eles são: 1) Buzzer; 2) Motor de Vibração; 3) Sensor de Inclinação. O Buzzer e o Motor de Vibração formam o Sistema de Alarme. <br>
+
+
+O Sensor de Inclinação foi introduzido ao nosso projeto para verificar se o motorista esta em uma posição de estado inconsciente.  O sensor trabalha com dois estados: não inclinado (LOW) e inclinado (HIGH). Se o motorista estiver inclinado, o Sistema de Alarme será ativado, caso ao contrário, nada acontece. O Sensor de Inclinação funciona de forma independente, isso quer dizer que o Sistema de Alarme será ativado mesmo que o botão 1, o botão que simula o estado de olho fechado, do Controle Remoto seja pressionado.
+
+Os componentes Buzzer e Moto de Vibração foram introduzidos como um Sistema de Alarme para alertar o motorista que os seus olhos estão fechados. O Buzzer funciona emitindo um ruído e o Moto de Vibração, como o próprio nome diz, vibra. Eles só serão ativados quando o botão 2 do Controle Remoto for pressionado e quando o Sensor de Inclinação estiver no seu estado inclinado (HIGH). 
+
+O código da tela de LCD foi adaptado para atender o Sensor de Inclinação.
+
 ________
 
 ## **Semana 3 - 15/11 a 18/11**
 
 - Criação do arquivo Desenvolvimento.md;
-- Montagem do projeto físico;
+- Finalização do projeto virtual;
 - Apresentação final do projeto.

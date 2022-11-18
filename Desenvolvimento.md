@@ -152,12 +152,11 @@ Imagens: <br>
 <img src="https://user-images.githubusercontent.com/116377673/202011563-1f6b1fa8-eb61-4e4a-b229-30ebea110c20.png" width="430" height="270" /> <br>
 <img src="https://user-images.githubusercontent.com/116377673/202011385-f8803244-8d66-4155-a20f-70df6eeedcfb.png" width="430" height="270" /> <br>
 
-O nosso projeto final contará com mais três compononentes, além dos já vistos anteriormente na Etapa 1. Eles são: 1) Buzzer; 2) Motor de Vibração; 3) Sensor de Inclinação. O Buzzer e o Motor de Vibração formam o Sistema de Alarme. <br>
+O nosso projeto final contará com mais três compononentes, além dos já vistos anteriormente na Etapa 1. Eles são: 1) Buzzer; 2) Motor de Vibração; 3) Sensor de Inclinação. <br>
 
+Os componentes Buzzer e Moto de Vibração foram introduzidos como um Sistema de Alarme para alertar o motorista que os seus olhos estão fechados. O Buzzer funciona emitindo um ruído e o Moto de Vibração, como o próprio nome diz, vibra. Eles só serão ativados quando o botão 2 do Controle Remoto for pressionado e quando o Sensor de Inclinação estiver no seu estado inclinado (HIGH), o qual será discutido logo a frente.  <br>
 
-O Sensor de Inclinação foi introduzido ao nosso projeto para verificar se o motorista esta em uma posição de estado inconsciente.  O sensor trabalha com dois estados: não inclinado (LOW) e inclinado (HIGH). Se o motorista estiver inclinado, o Sistema de Alarme será ativado, caso ao contrário, nada acontece. O Sensor de Inclinação funciona de forma independente, isso quer dizer que o Sistema de Alarme será ativado mesmo que o botão 1, o botão que simula o estado de olho fechado, do Controle Remoto seja pressionado.
-
-Os componentes Buzzer e Moto de Vibração foram introduzidos como um Sistema de Alarme para alertar o motorista que os seus olhos estão fechados. O Buzzer funciona emitindo um ruído e o Moto de Vibração, como o próprio nome diz, vibra. Eles só serão ativados quando o botão 2 do Controle Remoto for pressionado e quando o Sensor de Inclinação estiver no seu estado inclinado (HIGH). 
+O Sensor de Inclinação foi introduzido ao nosso projeto para verificar se o motorista esta em uma posição de estado inconsciente.  O sensor trabalha com dois estados: não inclinado (LOW) e inclinado (HIGH). Se o motorista estiver inclinado, o Sistema de Alarme será ativado, caso ao contrário, nada acontece. O Sensor de Inclinação funciona de forma independente, isso quer dizer que o Sistema de Alarme será ativado mesmo que o botão 1, o botão que simula o estado de olho fechado, do Controle Remoto seja pressionado. <br>
 
 O código da tela de LCD foi adaptado para atender o Sensor de Inclinação.
 

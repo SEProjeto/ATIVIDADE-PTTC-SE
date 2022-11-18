@@ -72,8 +72,11 @@ void loop(){
 ```
 
 Imagens: <br>
+Figura 1 <br>
 <img src="https://user-images.githubusercontent.com/116377673/202001754-e6d60f74-e1b0-4723-a6c7-f36f5651d1c3.png" width="430" height="270" /> <br>
+Figura 2 <br>
 <img src="https://user-images.githubusercontent.com/116377673/202005083-7e55a992-584c-4311-8dc8-668992b723de.png" width="430" height="270" /> <br>
+Figura 3 <br>
 <img src="https://user-images.githubusercontent.com/116377673/202004494-c7919249-4326-4f77-8a41-7bfa1dfaf85a.png" width="430" height="270" /> <br>
 
 O nosso protótipo Óculos Anti-Sono tem o objetivo de impedir que motoristas inconscientes causem acidentes nas estradas. O circuito acima simula a versão mais básico do nosso projeto. <br>
@@ -148,9 +151,17 @@ void loop(){
 ```
 
 Imagens: <br>
-<img src="https://user-images.githubusercontent.com/116377673/202010671-3a352dc3-c847-4bd6-979f-3f9ac9695b88.png" width="430" height="270" /> <br>
-<img src="https://user-images.githubusercontent.com/116377673/202011563-1f6b1fa8-eb61-4e4a-b229-30ebea110c20.png" width="430" height="270" /> <br>
-<img src="https://user-images.githubusercontent.com/116377673/202011385-f8803244-8d66-4155-a20f-70df6eeedcfb.png" width="430" height="270" /> <br>
+
+Figura 4 <br>
+<img src="https://user-images.githubusercontent.com/116377673/202731028-af67ff95-98a6-4572-ab15-763eeedfc5be.png" width="430" height="270" /> <br>
+Figura 5 <br>
+<img src="https://user-images.githubusercontent.com/116377673/202731627-19a07fcd-c9a7-47fe-89dc-44b298209e55.png" width="430" height="270" /> <br>
+Figura 6 <br>
+<img src="https://user-images.githubusercontent.com/116377673/202731913-f7e28818-fb3d-4fba-b0c6-bef504274c0d.png" width="430" height="270" /> <br>
+Figura 7 <br>
+<img src="https://user-images.githubusercontent.com/116377673/202732334-a8bb3e11-3fc9-4781-86fe-3d3e7dcd5756.png" width="430" height="270" /> <br>
+Figura 8 <br>
+<img src="https://user-images.githubusercontent.com/116377673/202732511-f92b1264-9f91-4709-8c8b-1268cfacf8be.png" width="430" height="270" /> <br>
 
 O nosso projeto final contará com mais três compononentes, além dos já vistos anteriormente na Etapa 1. Eles são: 1) Buzzer; 2) Motor de Vibração; 3) Sensor de Inclinação. <br>
 

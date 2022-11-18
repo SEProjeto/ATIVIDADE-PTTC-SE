@@ -1,10 +1,9 @@
 ## Lista de Materiais
 
-- Attiny85
-- IR Sensor
+- Arduino Uno
+- Sensor Infravermelho
 - Buzzer
 - Resistores
-- Transistor
 - Motor de vibração
-- Armação de óculos
-- bateria 5v
+- LED vermelho
+- Sensor de Inclinação

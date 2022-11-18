@@ -95,7 +95,10 @@ Código:
 int RECV_PIN = 11;
 int buzzerPin = 7;
 int vibratorPin = 6;
-int ledPin = 5;
+int sensorInclinacaoPin = 10;
+int estadoSensorInclinacao = 0;
+int estadoOlho = LOW; // LOW = FECHADO - HIGH = ABERTO
+int ultimoEstadoSensorInclinacao = LOW;
 
 // LCD
 int seconds = 0;
@@ -107,45 +110,98 @@ decode_results results;
 void setup()
 {
   pinMode(buzzerPin, OUTPUT);
+  pinMode(sensorInclinacaoPin, OUTPUT);
   pinMode(vibratorPin, OUTPUT);
   Serial.begin(9600);
   irrecv.enableIRIn();
   
   //LCD
   lcd_1.begin(16, 2);
+  lcd_1.print("1 - Olho Aberto");
+  lcd_1.setCursor(0, 1);
+  lcd_1.print("2 - Olho Fechado");
   
 }
 
 void loop(){
-  lcd_1.setBacklight(1);
+  
+  
   
   // Sensor infravermelho
+  
   if(irrecv.decode(&results)){             //1 is turn led on
   Serial.println(results.value, HEX);
     switch(results.value){
-    case 0xFD08F7:
-      lcd_1.setBacklight(1);
+    case 0xFD08F7: // 1 - Olho Aberto
+      lcd_1.clear();
       lcd_1.setCursor(0, 0);
       lcd_1.print("Olho aberto");
-      digitalWrite(ledPin, HIGH);
-      digitalWrite(buzzerPin, HIGH);
-      digitalWrite(vibratorPin, HIGH);
+      if (estadoSensorInclinacao == HIGH)
+  	{
+        lcd_1.setBacklight(1);
+        lcd_1.setCursor(0, 1);
+        lcd_1.print("Inclinado");
+  	}
+      estadoOlho = HIGH;
       break;
        	
-    case 0xFD8877:
-      lcd_1.setBacklight(1);
+    case 0xFD8877: // 2 - Olho Fechado
+      lcd_1.clear();
       lcd_1.setCursor(0, 0);
       lcd_1.print("Olho fechado");
-      digitalWrite(ledPin, LOW); // Red Dot is Off
-      digitalWrite(buzzerPin, LOW);
-      digitalWrite(vibratorPin, LOW);
+      if (estadoSensorInclinacao == HIGH)
+  	  {
+        lcd_1.setBacklight(1);
+        lcd_1.setCursor(0, 1);
+        lcd_1.print("Inclinado");
+  	  }
+      estadoOlho = LOW;
     }
-    irrecv.resume();
-    lcd_1.setBacklight(1);
-  
   }
-  delay(100);
+  
+  // Sensor de Inclinação
+  estadoSensorInclinacao = digitalRead(sensorInclinacaoPin);
+  if (estadoSensorInclinacao == HIGH)
+  {
+    estadoOlho = HIGH;
+  }
+  else if (estadoSensorInclinacao == HIGH && results.value == 0xFD8877 )
+  {
+    estadoOlho = HIGH;
+  }
+  else if (estadoSensorInclinacao == LOW && results.value == 0xFD8877 )
+  {
+    estadoOlho = LOW;
+  }
+  
+  if (estadoSensorInclinacao != ultimoEstadoSensorInclinacao )
+  {
+   	lcd_1.clear(); 
+    if (results.value == 0xFD08F7)
+    {
+      lcd_1.setCursor(0, 0);
+      lcd_1.print("Olho aberto");
+    }
+    else
+    {
+      lcd_1.setCursor(0, 0);
+      lcd_1.print("Olho fechado");
+    }
+    
+    if (estadoSensorInclinacao == HIGH)
+  	{
+      lcd_1.setBacklight(1);
+      lcd_1.setCursor(0, 1);
+      lcd_1.print("Inclinado");
+  	}
+  }
 
+   ultimoEstadoSensorInclinacao = estadoSensorInclinacao;
+   digitalWrite(5, estadoOlho); 
+   digitalWrite(6, estadoOlho);
+   digitalWrite(7, estadoOlho);
+   irrecv.resume();
+   lcd_1.setBacklight(1);
 }
 
 ```

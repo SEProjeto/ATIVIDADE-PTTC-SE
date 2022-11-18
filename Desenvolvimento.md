@@ -76,10 +76,13 @@ Imagens: <br>
 <img src="https://user-images.githubusercontent.com/116377673/202005083-7e55a992-584c-4311-8dc8-668992b723de.png" width="430" height="270" /> <br>
 <img src="https://user-images.githubusercontent.com/116377673/202004494-c7919249-4326-4f77-8a41-7bfa1dfaf85a.png" width="430" height="270" /> <br>
 
-O circuito acima simula a versão mais básico do nosso protótipo. Ele conta com um sensor infravermelho adaptado para o uso dentro do ambiente virtual com o controle remoto. Como não é possivel simular proximidade em um espaço fisico dentro do Tinkercad, nós adaptamos o projeto para que o botão 1 do controle remoto seja o estado de quando o utilizador do óculos esteja com os olhos fechados e o botão 2 simular quando ele estiver com o olho aberto. Quando o botão é pressionado, o LED acende, dizendo que o motorista está com o olho aberto.
+O nosso protótipo Óculos Anti-Sono tem o objetivo de impedir que motoristas inconscientes causem acidentes nas estradas. O circuito acima simula a versão mais básico do nosso projeto. <br>
+Para o projeto virtual, nós tentamos simular os estados de olho aberto e olho fechado com o sensor infravermelho e o controle remoto. O botão 1 do controle simula o estado de olho aberto e o botão número 2 simula o estado de olho fechado. Quando o botão 2 é pressionado, o LED irá acender, indicando que o motorista esta com o olho aberto. <br>
+A tela LCD é usada para ilustrar os estados do circuito. Quando um botão é pressionado, ele muda seu letreiro de acordo. É possível ver seu funcionamento nas figuras acima. 
+
 ________
 
-## Etapa 2 - Sensor Infravermelho com controle remoto e LED
+## Etapa 2 - Sensor Infravermelho com controle remoto, LED, Buzzer, Moto de Vibração e Sensor de Inclinação.
 
 
 Código:

@@ -104,7 +104,7 @@ int ultimoEstadoSensorInclinacao = LOW;
 int seconds = 0;
 Adafruit_LiquidCrystal lcd_1(0);
 
-
+// Sensor IR
 IRrecv irrecv(RECV_PIN);
 decode_results results;
 void setup()
@@ -120,15 +120,11 @@ void setup()
   lcd_1.print("1 - Olho Aberto");
   lcd_1.setCursor(0, 1);
   lcd_1.print("2 - Olho Fechado");
-  
 }
 
 void loop(){
-  
-  
-  
+
   // Sensor infravermelho
-  
   if(irrecv.decode(&results)){             //1 is turn led on
   Serial.println(results.value, HEX);
     switch(results.value){
@@ -137,11 +133,11 @@ void loop(){
       lcd_1.setCursor(0, 0);
       lcd_1.print("Olho aberto");
       if (estadoSensorInclinacao == HIGH)
-  	{
+  	  {
         lcd_1.setBacklight(1);
         lcd_1.setCursor(0, 1);
         lcd_1.print("Inclinado");
-  	}
+  	  }
       estadoOlho = HIGH;
       break;
        	

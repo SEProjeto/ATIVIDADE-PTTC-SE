@@ -1,4 +1,4 @@
-## Lista de Materiais
+## Lista de Materiais - Projeto Virtual
 
 - Arduino Uno
 - Sensor Infravermelho

@@ -1,9 +1,10 @@
 ## Lista de Materiais - Projeto Virtual
 
-- Arduino Uno
+- Arduino Uno R3
 - Sensor Infravermelho
 - Buzzer
-- Resistores
+- 2x Resistores 220 Ohms
 - Motor de vibração
 - LED vermelho
 - Sensor de Inclinação
+- Tela LCD (I2C)

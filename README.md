@@ -1,9 +1,9 @@
-# Óculos Anti-sono - Uma solução para acidentes causados nas estradas
+# Óculos Anti-Sono - Uma solução para acidentes causados nas estradas
 
 ## Integrantes: Adrielli Venancio Boregio; André Alves Paula da Costa; Daniel Aparecido da Silva; Leticia Cristina Marques; Matthieu Cherbonnier.
 
 ### Resumo:
-Por causa dos acidentes de trânsito, causados pela falta de atenção e cansaço dos motoristas que acabam dormindo, se criou a necessidade de um produto que permitisse a redução desses acontecimentos, podendo alertá-los sobre os riscos que estão podendo causar, estando inconscientes. Com isso esse produto seria capaz de reduzir os riscos, mantendo as estradas mais seguras.
+É recorrente o acontecimento de acidentes de trânsito causados pela falta de atenção e cansaço de motoristas que acabam dormindo no volante. Levando isso em consideração, se criou a necessidade de uma solução que permitisse a redução desses acontecimentos, podendo alertar os motoristas sobre os riscos que eles podem causar estando inconscientes. O Óculos Anti-Sono é uma solução capaz de reduzir os riscos de acidentes, mantendo as estradas mais seguras e, consequentemente, reduzindo a quantidade de vidas perdidas.
 
 ---
  
@@ -12,3 +12,5 @@ Por causa dos acidentes de trânsito, causados pela falta de atenção e cansaç
  - [Lista de Materiais](./Materiais.md)
  
 ---
+
+
